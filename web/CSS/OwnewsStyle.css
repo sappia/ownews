@@ -1,0 +1,56 @@
+/* 
+    Document   : OwnewsStyle
+    Created on : Nov 14, 2012, 8:42:45 PM
+    Author     : Shreya Appia
+    Description: OwnewsStyle to implement same style of pages throughout the project
+*/
+body{
+    background-color: orange;
+}
+
+#links {
+    background-color: olivedrab;
+    text-align: center;
+}
+
+h1 {
+    color: olivedrab;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: red;
+}
+a {
+    color: brown;
+}
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+a.spacing {
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.error {
+	color: #ff0000;
+}
+ 
+.errorblock {
+	color: #000;
+	background-color: olive;
+	border: 3px solid olive;
+	padding: 8px;
+	margin: 30px;
+}
+
+fieldset {
+    padding: 40px;
+    height: available;
+}
+
+span {
+    font-size:medium;
+}
