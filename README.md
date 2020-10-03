@@ -1,0 +1,2 @@
+# ownews
+Distributed Social News
